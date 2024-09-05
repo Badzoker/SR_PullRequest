@@ -52,6 +52,9 @@
     <Filter Include="02.GameObject\Bullet4">
       <UniqueIdentifier>{f9c41f50-4293-4898-8685-5816c91602fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="02.GameObject\Bullet1">
+      <UniqueIdentifier>{371aa81e-c864-452a-af6a-9ecc2eee655e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -105,6 +108,9 @@
     <ClInclude Include="..\Header\Bullet4.h">
       <Filter>02.GameObject\Bullet4</Filter>
     </ClInclude>
+    <ClInclude Include="..\Header\Bullet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyClient.cpp">
@@ -145,6 +151,9 @@
     </ClCompile>
     <ClCompile Include="..\Code\Bullet4.cpp">
       <Filter>02.GameObject\Bullet4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
