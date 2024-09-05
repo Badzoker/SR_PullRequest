@@ -16,6 +16,8 @@ HRESULT CBullet4::Ready_GameObject()
 {
     FAILED_CHECK_RETURN(Add_Component(), E_FAIL);
 
+    
+
     Set_Position_Player();
 
     return S_OK;
@@ -92,6 +94,12 @@ HRESULT CBullet4::Add_Component()
 
 HRESULT CBullet4::Bullet_Launch(const _float& fTimeDelta)
 {
+    //종한 Bullet4 Key 입력 by InputDev
+    //if (Engine::Get_DIKeyState(DIK_SPACE) & 0x80)
+    //{
+    //    //의논이 필요할듯
+    //    Set_Render_True();
+    //}
     if (m_bIsRender)
     {
         m_fTimer += fTimeDelta;

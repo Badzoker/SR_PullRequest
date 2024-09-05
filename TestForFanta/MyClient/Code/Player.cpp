@@ -22,6 +22,8 @@ _int CPlayer::Update_GameObject(const _float& fTimeDelta)
 {
 	Key_Input(fTimeDelta);
 
+	//Moving(fTimeDelta);
+
 	Engine::Add_RenderGroup(RENDER_ALPHA, this);
 
 	return  Engine::CGameObject::Update_GameObject(fTimeDelta);
@@ -126,9 +128,13 @@ HRESULT CPlayer::Launch_Bullet(const _float& fTimeDelta)
 	for (auto& iter : m_BulletList)
 	{
 		if (dynamic_cast<CBullet4*>(iter)->Set_Render_True())
+		{
 			return S_OK;
+		}
 		else
+		{
 			iTemp++;
+		}
 	}
 
 	CGameObject* pGameObject = nullptr;
