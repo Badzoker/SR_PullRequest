@@ -1,7 +1,6 @@
 #pragma once
 #include "GameObject.h"
-class CBullet :
-    public CGameObject
+class CBullet : public CGameObject
 {
 };
 
