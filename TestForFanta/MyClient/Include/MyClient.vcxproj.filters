@@ -109,7 +109,7 @@
       <Filter>02.GameObject\Bullet4</Filter>
     </ClInclude>
     <ClInclude Include="..\Header\Bullet.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>02.GameObject\Bullet1</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -153,7 +153,7 @@
       <Filter>02.GameObject\Bullet4</Filter>
     </ClCompile>
     <ClCompile Include="..\Code\Bullet.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>02.GameObject\Bullet1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
