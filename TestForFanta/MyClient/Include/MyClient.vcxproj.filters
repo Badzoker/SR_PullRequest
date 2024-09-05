@@ -108,7 +108,7 @@
     <ClInclude Include="..\Header\Bullet4.h">
       <Filter>02.GameObject\Bullet4</Filter>
     </ClInclude>
-    <ClInclude Include="..\Header\Bullet.h">
+    <ClInclude Include="..\Header\Bullet1.h">
       <Filter>02.GameObject\Bullet1</Filter>
     </ClInclude>
   </ItemGroup>
@@ -152,7 +152,7 @@
     <ClCompile Include="..\Code\Bullet4.cpp">
       <Filter>02.GameObject\Bullet4</Filter>
     </ClCompile>
-    <ClCompile Include="..\Code\Bullet.cpp">
+    <ClCompile Include="..\Code\Bullet1.cpp">
       <Filter>02.GameObject\Bullet1</Filter>
     </ClCompile>
   </ItemGroup>
